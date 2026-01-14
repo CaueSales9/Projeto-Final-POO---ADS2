@@ -3,7 +3,13 @@ from base import Planta
 
 class Pteridofita(Planta):
     def tipo(self):
-        return "PTERIDÓFITA (Ex: Samambaias/Xaxim)"
+        return "PTERIDÓFITA"
     
     def info(self):
-        return "Plantas sem flores e sem sementes, mas já possuem vasos condutores (caule e folhas verdadeiras)."
+        return "As Pteridófitas (como as samambaias) já possuem vasos condutores, mas ainda se reproduzem por esporos, sem sementes."
+    
+    def ficha_tecnica(self):
+        return {
+                "Vasos Condutores": "Vasculares",
+                "Reprodução": "Esporos"
+            }
