@@ -17,7 +17,7 @@ Python 3.x
 Programação Orientada a Objetos
 
 # Como usar:
-Execute o arquivo principal:
+Execute o arquivo principal ->
 
 python3 main.py
 
