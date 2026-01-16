@@ -106,5 +106,5 @@ if __name__ == "__main__":
             plantas.rodar()
 
         else:
-            print(f'Sistema desligado\nSeu historico {user_iden.historico}')
+            print(f'Sistema desligado\nSeu historico {user_iden.get_historico()}')
             break
